@@ -1,0 +1,41 @@
+body{
+    background-color:  grey;
+}
+
+.profile-section{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-color: grey;
+}
+
+@media screen and (min-width: 800px){
+    .profile-section{
+    background-color: grey;
+    margin-left: 35%;
+    margin-right: 35%;
+    }
+    
+    body{
+        background-color: black;
+    }
+}
+
+.img-div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.center-text{
+    text-align: center; /* Centers text horizontally */
+}
+
+.button{
+    background-color: rgb(153, 151, 151);
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
